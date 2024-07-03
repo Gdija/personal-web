@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personnal Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <section id="home">
+          <nav class="nav-container">
+            <div class="nav-bar">
+              <ul>
+                <div class="time-day">
+                    <li data-testid="currentDay" id="curr-day"></li>
+                    <li data-testid="currentTimeUTC" id="curr-time"></li>
+                </div>
+                <!-- <li><a href="#home">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#links">Links</a></li>
+              </ul>
+            </div>
+          </nav>
+      </section>
+      <div class="about">
+        <section class="about-section" id="about">
+          <div class="info">
+            <ul>
+              <p>
+                Welcome To My Space Where Creativity and Curiosity are the Keys
+                to unlock a world full of endless possibilities and innovative
+                solutions.
+              </p>
+              <li data-testid="slackDisplayName">
+                <span>Name:</span> khadija ghadi
+              </li>
+              <li data-testid="slackEmail">
+                <span>Email:</span> khadijaghadi00@gmail.com
+              </li>
+            </ul>
+            <img
+              src="./images/propic.jpg"
+              alt="profile picture"
+              width="auto"
+              height="auto"
+              data-testid="slackProfilePicture"
+            />
+          </div>
+        </section>
+      </div>
+      <div class="goals">
+        <section class="goals-section" id="goals">
+          <h1>Setting Goals, Achieving Dreams</h1>
+          <h2>My tech goals for the next 2 years</h2>
+          <ul>
+            <li>Learn MongoDB database</li>
+            <li>Master NodeJS/ExpressJS</li>
+            <li>Practise React by build projects</li>
+            <li>Network with industry professionals</li>
+            <li>
+              Find an Internship to apply MERN skills to real world projects
+            </li>
+            <li>Showcase portfolio projects - Land first job</li>
+          </ul>
+        </section>
+      </div>
+      <div class="links">
+        <section class="links-section" id="links">
+          <ul>
+            <h3>Drop a look into this websites</h3>
+            <li>
+              <a
+                href="https://hng.tech/learn"
+                data-testid="hngLink"
+                target="_blank"
+              >
+                hng.tech/learn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://keyword.dog/"
+                target="_blank"
+                data-testid="keywordLink"
+                >keyword.dog</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://scrapeanyweb.site/"
+                target="_blank"
+                data-testid="scrapeanywebLink"
+                >scrapeanyweb.site</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
